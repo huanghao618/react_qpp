@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Aaa } from "./add";
 
 function App() {
   return (
@@ -16,23 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />{" "}
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logo} className="App-logo" alt="logo" />
+          <div className="div">冲突来吧</div>
+          <img src={logo} className="App-logo" alt="logo123" />
           Learn React Learn React Learn React Learn React Learn React
           Learn"dev"" React Learn React Learn React
         </a>
+        <Aaa></Aaa>
       </header>
     </div>
   );
