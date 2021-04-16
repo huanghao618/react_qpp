@@ -1,4 +1,5 @@
-function Name(params) {
-  return <div>heloo</div>;
+function Aaa() {
+  return <div className="box">hahah</div>;
 }
-export default Name;
+
+export default Aaa;
